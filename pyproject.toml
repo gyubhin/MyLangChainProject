@@ -3,15 +3,36 @@ name = "mylangchain-app"
 version = "0.1.0"
 description = ""
 authors = [
-    {name = "gyubhin",email = "iami0115@naver.com"}
+    {name = "vega2kgkube",email = "vega2kgkube@gmail.com"}
 ]
 readme = "README.md"
-requires-python = "^3.11,<=4.0"
+requires-python = "<3.15,>=3.10"
 dependencies = [
+    "python-dotenv (>=1.1.1,<2.0.0)",
     "langchain (>=0.3.27,<0.4.0)",
     "langchain-openai (>=0.3.33,<0.4.0)",
     "gradio (>=5.46.0,<6.0.0)",
-    "python-dotenv (>=1.1.1,<2.0.0)"
+    "sse-starlette (>=3.0.2,<4.0.0)",
+    "langchain-ollama (>=0.3.8,<0.4.0)",
+    "langgraph (>=0.6.7,<0.7.0)",
+    "pyppeteer (>=2.0.0,<3.0.0)",
+    "langserve (>=0.3.2,<0.4.0)",
+    "langchain-community (>=0.3.29,<0.4.0)",
+    "fastapi (>=0.116.2,<0.117.0)",
+    "uvicorn (>=0.35.0,<0.36.0)",
+    "streamlit (>=1.49.1,<2.0.0)",
+    "langchain-text-splitters (>=0.3.11,<0.4.0)",
+    "langchain-huggingface (>=0.3.1,<0.4.0)",
+    "langsmith (>=0.4.29,<0.5.0)",
+    "pypdf (>=4.2.0,<5.0.0)",
+    "langchain-upstage (>=0.7.3,<0.8.0)",
+    "pydantic (>=2.11.9,<3.0.0)",
+    "faiss-cpu (>=1.12.0,<2.0.0)",
+    "sentence-transformers (>=5.1.1,<6.0.0)",
+    "beautifulsoup4 (>=4.13.5,<5.0.0)",
+    "wikipedia (>=1.4.0,<2.0.0)",
+    "tavily-python (>=0.7.12,<0.8.0)",
+    "tiktoken (>=0.11.0,<0.12.0)"
 ]
 
 [tool.poetry]
